@@ -1,0 +1,149 @@
+#home{
+    background-color: aquamarine;
+    background-image: url(https://static.onecms.io/wp-content/uploads/sites/43/2020/11/09/Quick-and-Easy-Pizza-Crust2-2000.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 610px;
+}
+
+a{
+  text-align: center;
+  justify-content: center;
+}
+#welcome{
+
+ text-align: center;
+ justify-content: center;
+ padding-top: 20%;
+ color:  rgb(8, 8, 8);
+ font-family: 'Comforter', cursive;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #18dcff, 0 0 30px #18ffec, 0 0 40px #ebf3a1, 0 0 55px #eec3dd, 0 0 75px #18ffff;
+ }
+
+.one{
+    background: rgb(245,176,240);
+    background: linear-gradient(0deg, rgba(245,176,240,1) 0%, rgba(173,216,235,1) 70%, rgba(230,206,156,1) 100%);
+      
+
+}
+
+span{
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 5%;
+    word-spacing: 5px;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button{
+    text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  margin: 0 0 0 100px;
+  position: relative;
+    background-color: #f78cd3;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+button:hover{
+    background:rgb(168, 241, 241);
+   box-shadow:0px 2px 10px 5px #bbc9d1;
+   color:#000;
+}
+
+#cards{
+    padding: 10%;
+    
+    background-image: url(https://previews.123rf.com/images/lolya1988/lolya19881904/lolya1988190400053/124031059-seamless-pattern-with-hand-drawn-pizza-slices-vector-black-and-white-food-background-monochrome-desi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.card-body{
+  background-color: #333;  
+  color: #bbc9d1;
+}
+
+.sub{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Comforter', cursive;
+    padding: 5%;
+    background: rgb(245,176,240);
+    
+
+    
+    max-width: 100%;
+}
+.col{
+  text-align: center;
+  justify-content: center;
+  height: 600px;
+ padding-top: 5%;
+}
+.hv{
+  display: none;
+  margin-left: 15%;
+}
+.col:hover .hv{
+  background: rgb(245,176,240);
+  background: linear-gradient(0deg, rgba(245,176,240,1) 0%, rgba(173,216,235,1) 70%, rgba(230,206,156,1) 100%);
+  font-size: larger;
+  display: block;
+  
+}
+#con{
+    
+    background-image: url(https://image.freepik.com/free-vector/food-delivery-service-abstract-concept-illustration-online-food-order-24-7-service-pizza-sushi-online-menu-payment-options-no-contact-delivery-download-app_335657-3507.jpg?w=740);
+    padding: 5% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer{
+  background-color: #18ffff;
+}
+ul {
+  margin:0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+.icon {
+  background-color: rgb(228, 230, 240);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s, box-shadow 0.5s;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 24%);
+  margin-top: 20%;
+}
+#icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon:hover{
+  background-color: violet;
+}
+#ff{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #333;
+  color: #bbc9d1;
+}

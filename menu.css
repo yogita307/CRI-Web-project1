@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(21, 22, 22);
+}
+
+
+h1{
+    text-align: center;
+   color: rgb(8, 8, 8);
+   background-color: antiquewhite;
+  
+   font-family: 'Inconsolata', monospace;
+   padding: 3%;
+   font-style: italic;
+   font-family: 'Comforter', cursive;
+} 
+
+  .card-body{
+    background: rgb(245,176,240);
+    background: linear-gradient(0deg, rgba(245,176,240,1) 0%, rgba(173,216,235,1) 70%, rgba(230,206,156,1) 100%);
+    color: black;
+    
+ }
+
+ .col{
+    transition: 0.5s;
+    padding: 50px;
+    opacity: 0.8;
+    text-align: center;
+    justify-content: center;
+ }
+  .col:hover {
+    opacity: 2;
+  font-size: large;
+ }
+
+ 
